@@ -42,6 +42,17 @@ body {
     text-shadow: 2px -1.5px #fff;
 }
 
+#score {
+    color: black;
+    text-shadow: 2.5px -2px #fff;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+}
+
+
 #buttonlArea {
     width: 33.33%;
 }
