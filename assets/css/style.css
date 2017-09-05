@@ -1,0 +1,47 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: auto;
+    background: url("../images/blueCrystal.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.name {
+    color: #fff;
+    text-shadow: 3px -3px black;
+}
+
+.header {
+    width: 90%;
+}
+
+.instructions {
+    width: 40%;
+    background-color: #99ccff;
+    color: black;
+    text-shadow: 1px -.5px #fff;
+    padding-left: 1%;
+}
+
+#need {
+    color: #fff;
+    text-shadow: 2.5px -2px black;
+}
+
+/*.scoreboard {
+    background-color: #99ccff;
+}*/
+
+#wins, #losses {
+    color: black;
+    text-shadow: 2px -1.5px #fff;
+}
+
+#buttonlArea {
+    width: 33.33%;
+}

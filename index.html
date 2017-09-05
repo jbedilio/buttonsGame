@@ -5,21 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Crystals Game!</title>
+    <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="assets/images/myLogo.png">
 </head>
 <body>
 
 <div class="container">
 
     <section clas="container" id="title">
-        <dive class="row">
+        <div class="row">
             <div class="col-md-12">
                 <div class="header">
-                    <h1 class="name">????Buttons????</h1>
+                    <h1 class="name"><strong>Crystals Collector</strong></h1>
                 </div>
             </div>
-        </dive>                     
+        </div>                     
         <div class="row">
             <div class="col-md-12">
                 <div class="instructions">
@@ -36,13 +39,13 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="target">
-                    <h4 class="target-num" id="need"></h4>
+                    <h2 class="target-num" id="need"></h2>
                 </div>
             </div>
             <div class="col-md-2">
                 <div class="scoreboard">
-                    <p id="wins">Wins:</p>
-                    <p id="losses">Losses:</p>
+                    <h3 id="wins">Wins:</h3>
+                    <h3 id="losses">Losses:</h3>
                 </div>
             </div>
         </div>
@@ -61,12 +64,12 @@
         <div class="row">
             <div class="col-md-3">
                  <div class="userNum">
-                    <h4 id="score"></h4>
+                    <h2 id="score"></h2>
                 </div>
             </div>
         </div>
     </section>
 
-    <script src='assets/game.js'></script>
+    <script src='assets/javascript/game.js'></script>
 </body>
 </html>
