@@ -28,6 +28,10 @@ body {
     padding-left: 1%;
 }
 
+/* #target, #record, #buttons, #theScore  {
+    background-color: #99ccff;
+} */
+
 #need {
     color: #fff;
     text-shadow: 2.5px -2px black;
@@ -53,6 +57,6 @@ img {
 }
 
 
-#buttonlArea {
+#buttonArea {
     width: 33.33%;
 }
