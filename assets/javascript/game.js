@@ -41,7 +41,7 @@ $('.btn').on('click', function() {
         });
     }else if ($score > $need){
         $losses++;
-        $('#losses').html('losses: ' + $losses);
+        $('#losses').html('Losses: ' + $losses);
         $need = (Math.floor((Math.random)() * 101) + 19);
         $('#need').html('You Need: ' + $need);
         $score = 0;
